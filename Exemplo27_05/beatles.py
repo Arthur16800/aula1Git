@@ -13,7 +13,7 @@ print(beatles)
 # 3
 
 for i in range(2):
-    beatlesSTR = str(input("Adicione os outros membros da banda 'Stu Sutcliffe e 'Pete Best' à lista: "))
+    beatlesSTR = str(input("Adicione os outros membros da banda 'Stu Sutcliffe' e 'Pete Best' à lista: "))
     beatles.append(beatlesSTR)
     
 print(beatles)
