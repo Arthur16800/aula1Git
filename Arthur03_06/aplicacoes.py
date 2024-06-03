@@ -29,4 +29,15 @@ print("Maio valô de 3:", mel)
 # Encontrar a localização de um determinado elemento dentro de uma listra
 frutas = ["abacaxi", "maçã", "pêra", "mamão", "uva", "melancia"]
 elemento = [5]
+achado = False 
+
+for i in range(len(frutas)):
+    achado = frutas[i] == elemento
+    if achado:
+        break
+if achado:
+    print("Elemento encontrado no indice:", i)
+else:
+    print("Elemento não encontrado")
+    
 time.sleep(3)
